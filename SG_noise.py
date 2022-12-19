@@ -70,10 +70,9 @@ def with_noise(n, spins):
     ax.hist(spins, bins = 50)
     ax.set_xlabel("Z-component of spin")
     ax.set_ylabel("# of atoms")
-    print(spins)
     plt.show()
 
-n = 500
+n = 1000
 atoms, spins = stern_gerlach(n)
 plot_outcome(atoms, spins)
 with_noise(n, spins)

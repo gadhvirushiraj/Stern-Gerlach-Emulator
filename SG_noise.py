@@ -1,3 +1,8 @@
+'''
+Reffered Code - QuTip-Notebooks
+https://notebook.community/qutip/qutip-notebooks/examples/stern-gerlach-tutorial
+'''
+
 from qutip import Qobj,Bloch, ket
 import numpy as np 
 import matplotlib.pyplot as plt

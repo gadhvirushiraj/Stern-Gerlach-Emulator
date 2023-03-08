@@ -1,3 +1,9 @@
+'''
+Reffered Code - QuTip-Notebooks
+https://notebook.community/qutip/qutip-notebooks/examples/stern-gerlach-tutorial
+'''
+
+
 
 from qutip import ket
 import numpy as np 
